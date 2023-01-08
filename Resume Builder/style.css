@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+background-color: lightgray;
+}
+.nav-bar {
+    background-color: black;
+    color: white ;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+}
+li{
+    font-size: 1.5rem;
+}
+
+#user-image {
+    width: 300px;
+    border-radius: 50%;
+    margin-inline: 40px;
+    margin-block: 20px;
+    border: 3px solid black;
+}
+.front-banner {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: lightgray;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 5rem;
+}
+.introduction {
+    width: 60%;
+    margin-inline: 20px;
+    margin-block: 50px;
+}
+.sub-text {
+    margin-block: 10px;
+}
+.headline {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+
+h2 {
+    font-size: 2rem;
+}
+.card {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-block: 20px;
+    margin-inline: 10px;
+    width: 27%;
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-inline: 10px;
+    text-align: center;
+}
+h3 {
+    font-size: 1.6rem;
+}
+.text-image {
+    display : flex;
+    gap: 10px;
+    align-items: center;
+    margin-block: 5px;
+}
+.present-badge {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-block: 1.5px;
+    padding-inline: 3px;
+}
+.icon {
+    font-size: 75px;
+    margin-block: 5px;
+}
+.education-container {
+    display: flex ;
+    justify-content: space-evenly;
+    margin-block: 15px;
+}
+.experience-container {
+    display: flex ;
+    justify-content: space-evenly;
+    margin-block: 15px;
+}
+.card-image {
+    height: 75px;
+    margin-block: 10px;
+}
+
+
+.progress-bar {
+    background-color: gray;
+    border-radius: 25px;
+    width: 210px;
+}
+.progress {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+}
+.skill {
+    display: flex;
+    gap: 10px;
+    margin-block: 40px;
+    margin-inline: 40px;
+}
+.skill-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.technical-skills {
+    display: flex;
+}
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.nav-ul li {
+    color: white;
+    font-style: normal;
+}
+.send-message {
+    width: 40%;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("GoogleMaps.jpg");
+}
+#contact-list {
+    display: flex;
+    margin-inline: 30px;
+    margin-block: 40px;
+    justify-content: center;
+    align-items: center;
+}
+#contact-list li {
+    display: flex;
+    margin-inline: 30px;
+
+}
+.contact-icon {
+    font-size: 50px;
+    color: black;
+}
+.cta-submit {
+    padding-block: 5px;
+    padding-inline: 5px;
+}
+a{
+    text-decoration: none;
+}
