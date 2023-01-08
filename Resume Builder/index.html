@@ -24,6 +24,9 @@
                 <a href="#skills">
                     <li>Skills</li>
                 </a>
+                <a href="#projects">
+                    <li>Projects</li>
+                </a>
                 <a href="#contact">
                     <li>Contact</li>
                 </a>
@@ -287,6 +290,52 @@
                 </div>
             </div>
     </section>
+    <br><br>
+    <section class="experience" id="projects">
+        <div class="headline">
+            <h2>Personal Projects</h2>
+        </div>
+        <div class="experience-container">
+            <div class="experience-detail card">
+                <a href="https://github.com/syedalamsiddiqui/Cricinfo-Extractor" target="_blank"><h3> Cricinfo Extractor</h3></a>
+                <img src="https://play-lh.googleusercontent.com/Xq9wyC3MoB-a4ggOCtjIq7Hc5vp0qwaQc63-tu-CWLb_Cu8zB7MbDjZftlGCXJBqm3E=w600-h300-pc0xffffff-pd" alt="" class="card-image">
+                <div class="text-image">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <p>September 2022
+                    </p>
+                </div>
+                <br>
+                <p>A script written in Javascript language which extracts the World Cup 2019 match details from cricinfo website. It further process the details and present them in form of PDFs, folders and Excel Sheet. This project was intended to learn about DOM and use of various libraries in Javascript. <br>
+                </p>
+            </div>
+            <div class="experience-detail card">
+                <a href="https://github.com/syedalamsiddiqui/Hackerrank-Automation" target="_blank"><h3> Hackerrank Automation</h3></a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png" alt="" class="card-image">
+                <div class="text-image">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <p>October 2021
+                    </p>
+                </div>
+                <br>
+                <p>
+                    This projects comprise of an Automation script written in Javascript. As it gets executed, it logs on to Hackerrank Sign in page and automates the login. Then after, it traverses through the list of all contests associated with the particular account and adds the moderator to each contest which we have to specify earlier. <br>
+                </p>
+            </div>
+            <div class="experience-detail card">
+                <a href="https://github.com/syedalamsiddiqui/QuizMaster" target="_blank"><h3> Quiz Master Application</h3></a>
+                <img src="https://media.istockphoto.com/id/1005384502/vector/human-brain-icon-vector.jpg?s=612x612&w=0&k=20&c=iDiuZfC9HgPWSj-YM0HxaCSTgg3wg0fBDcpQj3qrShs=" alt="" class="card-image">
+                <div class="text-image">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <p>July 2020
+                    </p>
+                </div>
+                <br>
+                <p>
+                    This is an android Quiz Application. User has to make an account using his email. Then he will be shown list of quizzes. Everyday a new quiz will be added. User can select a quiz which he wants to attempt. After the user selects the desired day's quiz, questions will be displayed, in the last as the user will submit the quiz, the scores will be displayed. <br>
+                </p>
+            </div>
+        </div>
+    </section>
     <section class="contact" id="contact">
         <div class="headline">
             <h2>Contact</h2>
@@ -296,17 +345,17 @@
                 <h3 style="margin-bottom:20px ;">Send me a message!</h3>
                 <form action="">
                     <label for="name">Enter your name </label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required>
                     <br><br>
                     <label for="email">Enter your email </label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     <br><br>
-                </form>
-                <label for="message">Type your message</label>
+                    <label for="message">Type your message</label>
                 <br>
-                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                <textarea name="message" id="message" cols="30" rows="5" required></textarea>
                 <br><br>
                 <input type="submit" class="cta-submit">
+                </form>
                 
             </div>
     
@@ -330,6 +379,7 @@
 
     </section>
 
+    
     <footer>
         <p>ⓒ All rights reserved for 2023</p>
     </footer>
